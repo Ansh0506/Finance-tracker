@@ -20,7 +20,6 @@ function App() {
           <button className="add_btn">ADD ➕</button>
         </div>
 
-
     </>
   )
 }
