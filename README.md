@@ -1,2 +1,2 @@
 # Finance-tracker
-check your monthly finance situation
+check your monthly finance situation and be sad
