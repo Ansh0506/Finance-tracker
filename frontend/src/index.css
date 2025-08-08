@@ -6,7 +6,7 @@ html, body {
 
 :root{
   background-image: url('../public/financial-investment-concept-double-exposure-city-night-stack-coins-finance-investor_488220-396.avif');
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center;
   background-size: cover;
 }
