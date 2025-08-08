@@ -1,9 +1,9 @@
-const mongoose = require('mongoose');
-const { DB_NAME } = require('../../constants.js');
+import mongoose from 'mongoose';
+
 
 const connectDB = async ()=>{
     try {
-        await mongoose.connect(`${process.env.MONGODB_URI}/${DB_NAME}`);
+        await mongoose.connect(`${process.env.MONGODB_URI}`);
         console.log(`\n MongoDB connected`);
         
     } catch (error) {
@@ -12,4 +12,4 @@ const connectDB = async ()=>{
     }
 }
 
-module.exports = {connectDB};
+export {connectDB}
