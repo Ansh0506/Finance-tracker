@@ -1,11 +1,15 @@
 /* eslint-disable no-unused-vars */
-import { useState } from "react";
+import { useState , useEffect} from "react";
 import './Home.css';
 
 export default function Home(){
     let income = 10;
     let spendings = 0;
     let savings = income-spendings;
+
+    useEffect(()=>{
+        fetch('http://localhost:3000/home');
+    },[])
     return(
         <>
             <h1>Ansh kumar singh</h1>
