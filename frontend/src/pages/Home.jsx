@@ -3,12 +3,12 @@ import { useState , useEffect} from "react";
 import './Home.css';
 
 export default function Home(){
-    let income = 10;
-    let spendings = 0;
+    let income = 100;
+    let spendings = 90;
     let savings = income-spendings;
 
     useEffect(()=>{
-        fetch('http://localhost:3000/home');
+        fetch('http://localhost:5173/home');
     },[])
     return(
         <>

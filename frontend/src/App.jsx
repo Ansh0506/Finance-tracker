@@ -1,6 +1,8 @@
 /* eslint-disable no-unused-vars */
 import { useState } from 'react'
 import './App.css'
+import { Chart } from 'chart.js'
+import {Doughnut, doughnut} from 'react-chartjs-2'
 import Home from './pages/Home.jsx'
 
 function App() {
@@ -15,7 +17,7 @@ function App() {
           </div>
 
         <div className="content_home">
-          <Home/>
+          <Home />
           <button className="add_btn">ADD ➕</button>
         </div>
         
