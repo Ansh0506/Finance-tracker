@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.expense-tracker {
+.finance-tracker {
   min-height: 100vh;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   padding: 2rem 1rem;
@@ -21,7 +21,7 @@
   font-weight: bold;
   text-align: center;
   margin-bottom: 2rem;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .stats-grid {
