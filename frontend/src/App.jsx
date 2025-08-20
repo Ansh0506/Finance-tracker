@@ -41,9 +41,9 @@ export default function ExpenseTracker() {
 
   return (
     
-    <div className="expense-tracker">
+    <div className="finance-tracker">
       <div className="container">
-        <h1 className="title">Expense Tracker</h1>
+        <h1 className="title">Finance Tracker</h1>
 
         <div className="stats-grid">
           <div className="stat-card">
